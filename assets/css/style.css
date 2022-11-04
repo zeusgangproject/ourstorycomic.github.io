@@ -44,6 +44,12 @@ img,
 	max-width: 100%;
 	transition: all 0.3s ease-out 0s;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 .f-left {
 	float: left
 }
