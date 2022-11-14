@@ -1,16 +1,16 @@
 <!doctype html>
 <html class="no-js" lang="">
-
+    
 <head>
         <meta data-n-head="ssr" charset="utf-8">
         <meta data-n-head="ssr" name="viewport" content="width=device-width, initial-scale=1">
         <meta data-n-head="ssr" name="description" data-hid="description" content="Come hang out with our TV Shows & Comics!">
         <meta data-n-head="ssr" name="og:site_name" data-hid="og:site_name" content="RW Studio">
-        <meta data-n-head="ssr" name="og:title" data-hid="og:title" content="RW Studio | The Last Words">
+        <meta data-n-head="ssr" name="og:title" data-hid="og:title" content="RW Studio | Coming Soon">
         <meta data-n-head="ssr" name="og:description" data-hid="og:description" content="Come hang out with our TV Shows & Comics!">
         <meta data-n-head="ssr" name="og:type" data-hid="og:type" content="website">
         <meta data-n-head="ssr" name="og:url" data-hid="og:url" content="index.html">
-        <meta data-n-head="ssr" name="og:image" data-hid="og:image" content="https://rwstudio.nim.town/assets/img/ico/thelastwords.jpg">
+        <meta data-n-head="ssr" name="og:image" data-hid="og:image" content="https://rwstudio.nim.town/assets/img/logo/app-logo.png">
         <meta data-n-head="ssr" data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="yes">
         <meta data-n-head="ssr" data-hid="apple-mobile-web-app-title" name="apple-mobile-web-app-title" content="Come hang out with our TV Shows & Comics!">
         <meta data-n-head="ssr" data-hid="theme-color" name="theme-color" content="#1a1a1a">
@@ -24,7 +24,6 @@
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
-        <link href="../assets/css/index.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="../assets/css/animate.min.css">
         <link rel="stylesheet" href="../assets/css/magnific-popup.css">
@@ -36,6 +35,7 @@
         <link rel="stylesheet" href="../assets/css/default.css">
         <link rel="stylesheet" href="../assets/css/style.css">
         <link rel="stylesheet" href="../assets/css/responsive.css">
+        <link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
     </head>
     <body>
 
@@ -73,13 +73,13 @@
                                         <ul class="navigation">
                                             <li><a href="../index.html">Home</a>
                                             </li>
-                                            <li class="active menu-item-has-children"><a href="../comic.html">COMIC</a>
+                                            <li class="menu-item-has-children"><a href="../comic.html">COMIC</a>
                                                 <ul class="submenu">
-                                                    <li class="active"><a href="../comic-details/thelastwords.html">The Last Words</a></li>
+                                            <li><a href="../comic-details/thelastwords.html">The Last Words</a></li>
                                                     <li><a href="../comic-details/melodiesoflove.html">Melodies Of Love</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="../tv-show.html">TV SHOW</a></li>
+                                            <li class="active"><a href="../tv-show.html">TV SHOW</a></li>
                                             <li><a href="../map.html">MAP</a>
                                             </li>
                                             <li><a href="../movie.html">MOVIE</a>
@@ -188,50 +188,217 @@
         </header>
         <!-- header-area-end -->
 
+
         <!-- main-area -->
         <main>
 
-            <!-- breadcrumb-area -->
-            <section class="breadcrumb-area breadcrumb-bg" data-background="../assets/img/bg/thelastwords.jpg">
+            <!-- movie-details-area -->
+            <section class="comingsoon-details-area comingsoon-details-bg">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12">
-                            <div class="breadcrumb-content text-center">
-                                <h2 class="title">The <span>Last</span> words</h2>
-                                <nav aria-label="breadcrumb">
-                                    <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-                                        <li class="breadcrumb-item"><a href="../comic.html">Comic</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">The Last words</li>
-                                    </ol>
-                                </nav>
+                        <div class="col-xl-3 col-lg-4 col-md-6 order-1">
+                            <div class="comingsoon-details-thumb">
+                                <img src="../assets/img/poster/comingsoon.jpg" alt="img">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-8 order-3 order-lg-2">
+                            <div class="movie-details-content">
+                                <h4 class="sub-title">Locked</h4>
+                                <h5 class="title">Coming <span>Soon</span></h5>
+                                <div class="movie-details-meat">
+                                    <ul>
+                                        <li class="score">Locked</li>
+                                        <li class="quality"> <a class="github-button" href="#" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</a> <p>Locked <span>FHD</span></p></li>
+                                        <li class="tv-series">Movies</li>
+                                    </ul>
+                                </div>
+                                <p></p>
+                                <div class="movie-info">
+                                    <ul>
+                                        <li>Directors : <a href="#">Locked</a></li>
+                                        <li>Genres : <a href="#">Locked</a></li>
+                                        <li>Subtitles : <a href="#">Locked</a></li>
+                                    </ul>
+                                </div>
+                                <a href="../tv-show/comingsoon/episode 1.html" class="play-btn "><i class="fa-solid fa-play"></i>Watch Now</a>
+</div>
+</div>
+<div class="col-xl-3 col-lg-4 col-md-6 order-2 order-lg-3">
+                            <div class="movie-trailer">
+                                <div class="movie-trailer-img">
+                                    <a href="../assets/img/trailer/coming-soon.mp4" class="play-btn popup-video"><i class="fa-solid fa-play"></i></a>
+                                    <img src="../assets/img/poster/comingsoon_trailer.jpg" alt="img">
+                                </div>
+                                <div class="trailer-content">
+                                    <h6 class="title">Trailer</h6>
+                                    <span>0 : 12</span>
+</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- breadcrumb-area-end -->
+            <!-- movie-details-area-end -->
 
-            <!-- latest-movie-area -->
-            <section class="latest-movie-area inner-movie-area pt-90 pb-90">
+            <!-- breadcrumb-area -->
+            <div class="breadcrumb-area movie-details-breadcrumb">
                 <div class="container">
-                    <div class="latest-movie-title-wrap">
-                                <div class="section-title">
-                                    <h4 class="sub-title">RW COMIC PROJECTS</h4>
-	<body class="off-black">
-		<h2>Page <span id="number">?</span> of <span id="total">?</span></h2>
-		<div class="center-image">
-			<a id="comic-link"><img id="comic-img" title="Use arrow keys to navigate!"/></a>
-		</div>
-		<script type="text/javascript" src="../assets/js/comic_data.js"></script>
-		<script type="text/javascript" src="../assets/js/comic.js"></script>
-
-                                          </div>
-                                       </div>
-                                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="breadcrumb-content">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="../tv-show.html">TV Show</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Coming Soon</li>
+                                    </ol>
+                                </nav>
+                                <div class="download-btn">
+                                    <a href="#" target="_blank" download=""><i class="fa-solid fa-download"></i></a>
                                 </div>
                             </div>
-            <!-- latest-movie-area-end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- breadcrumb-area-end -->
+
+            <!-- episode-area -->
+            <section class="episode-area episode-bg pt-90 pb-90">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title mb-40">
+                                <h4 class="sub-title">RW PROJECT</h4>
+                                <h2 class="title">Rate & Review</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-8">
+                            <div class="episode-watch-wrap">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <span class="season">Watch Full Episode</span>
+                                                <span class="video-count">3 Full Episodes</span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>
+                                                        <div class="episode-item">
+                                                            <div class="img">
+                                                            </div>
+                                                            <div class="content">
+                                                                <a href="#">Episode 1 - Coming Soon</a>
+                                                                
+<a class="github-button" href="#" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="duration">
+                                                            <span>Locked</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="episode-item">
+                                                            <div class="img">
+                                                            </div>
+                                                            <div class="content">
+                                                                <a href="#">Episode 2 - Coming Soon</a>
+                                                                <span><a class="github-button" href="#" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</a></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="duration">
+                                                            <span>Locked</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="episode-item">
+                                                            <div class="img">
+                                                            </div>
+                                                            <div class="content">
+                                                                <a href="#">Episode 3 - Coming Soon</a>
+                                                                <span><a class="github-button" href="#" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</a></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="duration">
+                                                            <span>Locked</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                    </div>
+<div id="disqus_thread"></div>
+<script>
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-rwstudio-nim-town.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the</noscript>
+                            </div>
+                            <div class="movie-description">
+                                <div class="description-title">
+                                    <h2 class="title">2022 <br> 1h 45 min <span>dark world</span></h2>
+                                </div>
+                                <div class="description-content">
+                                    <span>description</span>
+                                    <p>Rentals include 30 days to start watching this video and 48 hours to finish once started publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4">
+                            <div class="more-like-wrap">
+                                <div class="more-like-top">
+                                    <h4 class="title">Other Projects</h4>
+                                </div>
+                                <div class="more-like-bottom">
+                                    <ul>
+                                        <li>
+                                            <div class="thumb">
+                                                <a href="#"><img src="../assets/img/poster/comingsoon.jpg" alt="img"></a>
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title"><a href="#">Coming Soon</a></h4>
+                                                <p><span>Locked</span> Locked</p>
+<a class="github-button" href="#" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumb">
+                                                <a href="#"><img src="../assets/img/poster/comingsoon.jpg" alt="img"></a>
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title"><a href="#">Coming Soon</a></h4>
+                                                <p><span>Locked</span> Locked</p>
+<a class="github-button" href="#" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumb">
+                                                <a href="#"><img src="../assets/img/poster/comingsoon.jpg" alt="img"></a>
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title"><a href="#">Coming Soon</a></h4>
+                                                <p><span>Locked</span> Locked</p>
+<a class="github-button" href="#" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- episode-area-end -->
 
         </main>
         <!-- main-area-end -->
@@ -250,8 +417,8 @@
                                     <div class="footer-menu">
                                         <ul class="navigation">
                                             <li><a href="../index.html">HOME</a></li>
-                                            <li class="active"><a href="../comic.html">COMIC</a></li>
-                                            <li><a href="../tv-show.html">TV SHOW</a></li>
+                                            <li><a href="../comic.html">COMIC</a></li>
+                                            <li class="active"><a href="../tv-show.html">TV SHOW</a></li>
                                             <li><a href="../map.html">MAP</a></li>
                                             <li><a href="../movie.html">MOVIE</a></li>
                                         </ul>
@@ -364,8 +531,7 @@
         <script src="../assets/js/wow.min.js"></script>
         <script src="../assets/js/main.js"></script>
         <script async defer src="https://buttons.github.io/buttons.js"></script>
+        <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
     </body>
 
 </html>
-
-

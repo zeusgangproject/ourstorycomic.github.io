@@ -1865,7 +1865,7 @@ label {
 	text-transform: uppercase;
 	font-weight: 400;
 	display: inline-block;
-	background: linear-gradient(94deg, rgba(235, 217, 11, 1) 0%, rgba(235, 217, 11, 0) 100%);
+	background: linear-gradient(94deg, rgba(170, 0, 0, 1) 0%, rgba(235, 217, 11, 0) 100%);
 	padding: 11px 46px 11px 24px;
 	position: relative;
 	margin-bottom: 20px;
@@ -2930,6 +2930,201 @@ label {
 	background-image: -webkit-linear-gradient(90deg, rgb(20, 20, 20) 0%, rgb(12, 12, 12) 100%);
 	background-image: -ms-linear-gradient(90deg, rgb(20, 20, 20) 0%, rgb(12, 12, 12) 100%);
 }
+
+/* 15. The Last Words Details */
+.comingsoon-details-bg {
+	background-image: url(../img/slider/comingsoon.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+	position: relative;
+	z-index: 1;
+}
+.comingsoon-details-bg::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #1c1e1e;
+	opacity: .55;
+	z-index: -1;
+}
+.comingsoon-details-content .sub-title {
+	font-size: 28px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+.comingsoon-details-content .title {
+	font-size: 70px;
+	font-weight: 600;
+	color: #fefefe;
+	margin-bottom: 24px;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+.comingsoon-details-content .title span {
+	color: #8f0009;
+	font-weight: 300;
+}
+.comingsoon-details-meat ul {
+	display: flex;
+	align-items: center;
+	margin-bottom: 32px;
+}
+.comingsoon-details-meat ul li {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fefefe;
+	margin-right: 10px;
+}
+.comingsoon-details-meat ul li:last-child {
+	margin-right: 0;
+}
+.comingsoon-details-meat ul li.score {
+	color: #121313;
+	background: #8f0009;
+	border-radius: 0;
+	padding: 5px 11px;
+	display: block;
+	line-height: 1;
+	text-transform: uppercase;
+}
+.comingsoon-details-meat ul li.tv-series {
+	color: #c8c8c8;
+}
+.comingsoon-details-content p {
+	font-size: 14px;
+	margin-bottom: 12px;
+	color: #c8c8c8;
+	font-weight: 500;
+}
+.comingsoon-details-content .movie-info {
+	margin-bottom: 38px;
+}
+.comingsoon-details-content .movie-info ul li {
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.comingsoon-details-content .movie-info ul li:last-child {
+	margin-bottom: 0;
+}
+.comingsoon-details-content .movie-info ul li a {
+	color: #c8c8c8;
+	margin-left: 10px;
+}
+.comingsoon-details-content .movie-info ul li a:hover {
+	color: #8f0009;
+}
+.comingsoon-details-content .play-btn {
+	font-weight: 700;
+	color: #fefefe;
+	text-transform: uppercase;
+	display: inline-flex;
+	align-items: center;
+}
+.comingsoon-details-content .play-btn i {
+	width: 55px;
+	height: 53px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #8f0009;
+	font-size: 18px;
+	color: #1a1c1e;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.comingsoon-details-content .play-btn:hover {
+	color: #8f0009;
+}
+.comingsoon-trailer {
+	position: relative;
+	margin-right: -99px;
+	margin-left: 123px;
+}
+.comingsoon-trailer-img {
+	position: relative;
+	box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.26);
+}
+.comingsoon-trailer-img img {
+	border-radius: 4px;
+}
+.comingsoon-trailer-img::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, transparent, #000);
+	opacity: .9;
+}
+.comingsoon-trailer-img .play-btn {
+	position: absolute;
+	left: 17px;
+	top: 20px;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #e6e5e2;
+	border-radius: 50%;
+	font-size: 18px;
+	color: #1a1c1e;
+}
+.comingsoon-trailer .trailer-content {
+	position: absolute;
+	left: 23px;
+	right: 23px;
+	bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.comingsoon-trailer .trailer-content .title {
+	font-size: 14px;
+	font-weight: 500;
+	color: #8f0009;
+	margin-bottom: 0;
+}
+.comingsoon-trailer .trailer-content span {
+	font-weight: 500;
+}
+.comingsoon-details-breadcrumb {
+	background: #18181a;
+	padding: 0 0;
+	min-height: auto;
+}
+.comingsoon-details-breadcrumb .breadcrumb-content .breadcrumb {
+	justify-content: flex-start;
+}
+.comingsoon-details-breadcrumb .breadcrumb .breadcrumb-item {
+	text-transform: capitalize;
+}
+.comingsoon-details-breadcrumb .breadcrumb-content {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.comingsoon-details-breadcrumb .breadcrumb-content .download-btn a {
+	background: #8f0009;
+	width: 110px;
+	height: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px 4px 0px 0px;
+	color: #121001;
+	font-size: 24px;
+}
+
 
 /* 15. The Last Words Details */
 .thelastwords-details-bg {
@@ -4937,4 +5132,104 @@ label {
 }
 #loading-center-absolute img {
 	max-width: 85px;
+}
+/*==============================
+	Plyr customization
+==============================*/
+.plyr {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  border-radius: 4px;
+}
+@media (min-width: 1200px) {
+  .plyr {
+    margin-top: 25px;
+  }
+  .plyr video {
+    height: 310px;
+  }
+  .plyr__poster {
+    background-size: cover;
+  }
+}
+.plyr__menu__container .plyr__control {
+  transition: 0s ease;
+}
+.plyr__control.plyr__control--overlaid {
+  border-radius: 50%;
+}
+.plyr--video .plyr__control.plyr__tab-focus,
+.plyr--video .plyr__control:hover,
+.plyr--video .plyr__control[aria-expanded="true"] {
+  background: none;
+  background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+}
+.plyr__control--overlaid {
+  box-shadow: none;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 60px !important;
+  height: 60px;
+  background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transition: 0.4s ease;
+  transition-property: opacity, background-color, color, border-color, transform, box-shadow;
+  padding: 0;
+}
+.plyr__control--overlaid:before {
+  content: '';
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 1px;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background: url("../img/play.svg") no-repeat center;
+  background-size: 26px auto;
+}
+.plyr__control--overlaid svg {
+  display: none;
+}
+.plyr__control--overlaid:hover,
+.plyr__control--overlaid.plyr__tab-focus {
+  background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  box-shadow: 0 0 20px 0 rgba(255,88,96,0.5);
+}
+.plyr--video .plyr__progress__buffer {
+  box-shadow: none;
+}
+.plyr__progress__buffer {
+  border-radius: 0;
+}
+.plyr--full-ui input[type="range"] {
+  color: #ff55a5;
+  border-radius: 0;
+}
+.plyr__tab-focus {
+  box-shadow: none;
+  outline: none;
+}
+.plyr__tooltip {
+  font-weight: 300;
+}
+.plyr__control.plyr__tab-focus {
+  box-shadow: none;
+}
+.plyr__menu__container .plyr__control[role="menuitemradio"][aria-checked="true"]::before {
+  background: none;
+  background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+}
+.plyr__control {
+  border-radius: 4px;
+}
+.plyr--video .plyr__control svg {
+  filter: none;
 }
