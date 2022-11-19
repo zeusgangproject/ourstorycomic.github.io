@@ -6,7 +6,7 @@
         <meta data-n-head="ssr" name="viewport" content="width=device-width, initial-scale=1">
         <meta data-n-head="ssr" name="description" data-hid="description" content="Come hang out with our TV Shows & Comics!">
         <meta data-n-head="ssr" name="og:site_name" data-hid="og:site_name" content="RW Studio">
-        <meta data-n-head="ssr" name="og:title" data-hid="og:title" content="RW Studio | Home">
+        <meta data-n-head="ssr" name="og:title" data-hid="og:title" content="RW Studio | Map">
         <meta data-n-head="ssr" name="og:description" data-hid="og:description" content="Come hang out with our TV Shows & Comics!">
         <meta data-n-head="ssr" name="og:type" data-hid="og:type" content="website">
         <meta data-n-head="ssr" name="og:url" data-hid="og:url" content="index.html">
@@ -79,7 +79,7 @@
                                                 </ul>
                                             </li>
                                             <li><a href="tv-show.html">TV SHOW</a></li>
-                                            <li class="active "><a href="map.html">MAP</a>
+                                            <li class="active"><a href="map.html">MAP</a>
                                             </li>
                                             <li><a href="movie.html">MOVIE</a>
                                             </li>
@@ -97,11 +97,16 @@
                                         <ul>
                                             <li class="d-none d-xl-block">
                                                 <div class="footer-search">
-                                                    <form action="search.html">
-                                                        <input type="text" placeholder="Find Favorite Movie">
-                                                        <button><i class="fas fa-search"></i></button>
-                                                    </form>
-                                                </div>
+    <div class="box-search" id="search">
+        <form class="row" @submit.prevent>
+            <div class="col-12 col-7-m col-8-l col-10-xl">
+                <input class="field" id="username" type="text" placeholder="Find favorite project" v-model="username">
+            </div>
+            <div class="col-12 col-5-m col-4-l col-2-xl">
+                <button @click="coder" class="button"><i class="fas fa-search"></i></button>
+            </div>
+        </form>
+    </div>
                                             </li>
                                                     <div class="icon"></div>
 <div class="navbar-wrap main-menu d-none d-lg-flex">
@@ -541,6 +546,8 @@
         <script src="assets/js/ajax-form.js"></script>
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+        <script src="assets/js/searchproject.js"></script>
         <script async defer src="https://buttons.github.io/buttons.js"></script>
     </body>
 
