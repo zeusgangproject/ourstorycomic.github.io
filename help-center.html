@@ -1,12 +1,12 @@
 <!doctype html>
 <html class="no-js" lang="">
-
+    
 <head>
         <meta data-n-head="ssr" charset="utf-8">
         <meta data-n-head="ssr" name="viewport" content="width=device-width, initial-scale=1">
         <meta data-n-head="ssr" name="description" data-hid="description" content="Come hang out with our TV Shows & Comics!">
         <meta data-n-head="ssr" name="og:site_name" data-hid="og:site_name" content="RW Studio">
-        <meta data-n-head="ssr" name="og:title" data-hid="og:title" content="RW Studio | Comic">
+        <meta data-n-head="ssr" name="og:title" data-hid="og:title" content="RW Studio | Help Center">
         <meta data-n-head="ssr" name="og:description" data-hid="og:description" content="Come hang out with our TV Shows & Comics!">
         <meta data-n-head="ssr" name="og:type" data-hid="og:type" content="website">
         <meta data-n-head="ssr" name="og:url" data-hid="og:url" content="index.html">
@@ -72,7 +72,7 @@
                                         <ul class="navigation">
                                             <li><a href="index.html">Home</a>
                                             </li>
-                                            <li class="active menu-item-has-children"><a href="comic.html">COMIC</a>
+                                            <li class="menu-item-has-children"><a href="comic.html">COMIC</a>
                                                 <ul class="submenu">
                                                     <li><a href="comic-details/thelastwords.html">The Last Words</a></li>
                                                     <li><a href="comic-details/melodiesoflove.html">Melodies Of Love</a></li>
@@ -83,13 +83,13 @@
                                             </li>
                                             <li><a href="movie.html">MOVIE</a>
                                             </li>
-                                            <li class="menu-item-has-children"><a href="#">PAGES</a>
+                                            <li class="active menu-item-has-children"><a href="#">PAGES</a>
                                                 <ul class="submenu">
                                                     <li><a href="termsofuse.html">Terms Of Use</a></li>
                                                     <li><a href="privacy.html">Privacy Policy</a></li>
                                                     <li><a href="about-us.html">About Us</a></li>
                                                     <li><a href="faq.html">FAQ</a></li>
-                                                    <li><a href="help-center.html">Help Center</a></li>
+                                                    <li class="active"><a href="help-center.html">Help Center</a></li>
                                                 </ul>
                                             </li>
                                     </div>
@@ -191,16 +191,16 @@
         <main>
 
             <!-- breadcrumb-area -->
-            <section class="breadcrumb-area breadcrumb-bg" data-background="assets/img/bg/breadcrumb_bg02.jpg">
+            <section class="breadcrumb-area breadcrumb-bg" data-background="assets/img/bg/breadcrumb_bg.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="breadcrumb-content text-center">
-                                <h2 class="title">Our <span>Comic</span></h2>
+                                <h2 class="title"><span>Help</span> Center</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Our Comic</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Help Center</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -210,220 +210,69 @@
             </section>
             <!-- breadcrumb-area-end -->
 
-            <!-- latest-movie-area -->
-            <section class="latest-movie-area inner-movie-area pt-90 pb-90">
+            <!-- movie-search-area -->
+            <section class="movie-search-area pt-90 pb-90">
                 <div class="container">
-                    <div class="latest-movie-title-wrap">
-                        <div class="row align-items-center">
-                            <div class="col-xl-6 col-lg-5">
-                                <div class="section-title">
-                                    <h4 class="sub-title">RW COMIC PROJECTS</h4>
-                                    <h2 class="title">Our Latest Comics</h2>
-<br></br>
-                                </div>
-                            </div>
-                            <div class="col-lg-15">
-                                <div class="latest-movie-nav-wrap">
-                                    <div class="latest-movie-nav">
-                                        <button class="active" data-filter="*">All Genres</button>
-                                    <button class="" data-filter=".psychological">Psychological</button>
-                                    <button class="" data-filter=".action">Action</button>
-                                    <button class="" data-filter=".horror">Horror</button>
-                                    <button class="" data-filter=".gore">Gore</button>
-                                    <button class="" data-filter=".mystery">Mystery</button>
-                                    <button class="" data-filter=".adventure">Adventure</button>
-                                    <button class="" data-filter=".war">War</button>
-                                    <button class="" data-filter=".romance">Romance</button>
-                                    <button class="" data-filter=".science">Science Fiction</button>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="movie-search-wrap">
+                                <h2 class="title">
+                                    <span class="dot"></span>
+                                    <span class="text">Help center system</span>
+                                </h2>
+                                <div class="movie-search-form">
+                                    <form action="#">
+                                        <input id="searchbar" onkeyup="search_animal()" type="text"
+        name="search" placeholder="What do you need help with ?">
+                                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                    </form>
+<ol id='list'>
+<li  class="search">
+<div class="footer-menu-wrap">
+         <h1>What is RW Studio ?</h1>
+         <p>&nbsp;&nbsp;&nbsp; this so dumb</p></div></li>
+<li  class="search">
+<div class="footer-menu-wrap">
+         <h1>What is RW Box ?</h1>
+         <p>&nbsp;&nbsp;&nbsp; RW Box is a project of RW Studio about an application that allows viewers to experience comic, movies and TV shows with better quality, without ads on internet connected devices, rating and commenting on our projects, download our comics, movies and TV Shows easily.
+</p></div></li>
+<li  class="search">
+<div class="footer-menu-wrap">
+         <h1>How can i comment ?</h1>
+         <p>&nbsp;&nbsp;&nbsp; To comment you need to register an account at <a href="https://disqus.com/">disqus.com</a>, after registering you just have to go back in and scroll down to the comment section it will allow you to comment.</p></div></li>
+<li  class="search">
+<div class="footer-menu-wrap">
+         <h1>Does RW Studio support other languages ?</h1>
+         <p>&nbsp;&nbsp;&nbsp; For now we only use English for our comics, for TV shows and movies we use multiple languages like German, Spanish, Vietnamese, Italian and more If you want the language of your country in our projects, you can contact us at discord to become translators, maybe in the future we will use other languages for our comics.
+</p></div></li>
+<li  class="search">
+<div class="footer-menu-wrap">
+         <h1>How can i contact to the studio ?</h1>
+         <p>&nbsp;&nbsp;&nbsp; this so dumb</p></div></li>
+<li  class="search">
+<div class="footer-menu-wrap">
+         <h1>How to watch movie, tv series ?</h1>
+         <p>&nbsp;&nbsp;&nbsp; this so dumb</p></div></li>
+<li  class="search">
+<div class="footer-menu-wrap">
+         <h1>How to become our studio member ?</h1>
+         <p>&nbsp;&nbsp;&nbsp; this so dumb</p></div></li>
+<li  class="search">
+<div class="footer-menu-wrap">
+         <h1>How to co-operate with us ?</h1>
+         <p>&nbsp;&nbsp;&nbsp; this so dumb</p></div></li>
+<li  class="search">
+<div class="footer-menu-wrap">
+         <h1>How to read our comic ?</h1>
+         <p>&nbsp;&nbsp;&nbsp; this so dumb</p></div></li>
+    </ol>
                         </div>
                     </div>
-                    <div class="row latest-movie-active">
-                        <div class="col-xl-3 col-md-4 col-sm-6 grid-item grid-sizer psychological">
-                            <div class="latest-movie-item mb-50">
-                                <div class="latest-movie-thumb">
-                                    <a href="comic-details/thelastwords.html"><img src="assets/img/poster/thelastwords.jpg" alt=""></a>
-                                </div>
-                                <div class="latest-movie-content">
-                                    <div class="category"><a href="#">PSYCHOLOGICAL</a></div>
-                                    <h5 class="title">
-                                        <span class="quality">FHD</span><a href="comic-details/thelastwords.html">The Last Words</a>
-                                    </h5>
-                                    <div class="latest-movie-bottom">
-                                        <ul>
-                                            <li class="release-date">2020</li>
-                                            <li><span class="duration">English</span><span class="rating"></span>
-<a class="github-button" href="https://github.com/TheRWProjects/Our-Story-The-Last-Words" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6 grid-item grid-sizer">
-                            <div class="latest-movie-item mb-50">
-                                <div class="latest-movie-thumb">
-                                    <a href="#"><img src="assets/img/poster/comingsoon.jpg" alt=""></a>
-                                </div>
-                                <div class="latest-movie-content">
-                                    <div class="category"><a href="#">Locked</a></div>
-                                    <h5 class="title">
-                                        <span class="quality">FHD</span><a href="#">Coming Soon</a>
-                                    </h5>
-                                    <div class="latest-movie-bottom">
-                                        <ul>
-                                            <li class="release-date">Locked</li>
-                                            <li><span class="duration">Locked</span><span class="rating"></span>
-<a class="github-button" href="#" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6 grid-item grid-sizer">
-                            <div class="latest-movie-item mb-50">
-                                <div class="latest-movie-thumb">
-                                    <a href="#"><img src="assets/img/poster/comingsoon.jpg" alt=""></a>
-                                </div>
-                                <div class="latest-movie-content">
-                                    <div class="category"><a href="#">Locked</a></div>
-                                    <h5 class="title">
-                                        <span class="quality">FHD</span><a href="#">Coming Soon</a>
-                                    </h5>
-                                    <div class="latest-movie-bottom">
-                                        <ul>
-                                            <li class="release-date">Locked</li>
-                                            <li><span class="duration">Locked</span><span class="rating"></span>
-<a class="github-button" href="#" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6 grid-item grid-sizer">
-                            <div class="latest-movie-item mb-50">
-                                <div class="latest-movie-thumb">
-                                    <a href="#"><img src="assets/img/poster/comingsoon.jpg" alt=""></a>
-                                </div>
-                                <div class="latest-movie-content">
-                                    <div class="category"><a href="#">Locked</a></div>
-                                    <h5 class="title">
-                                        <span class="quality">FHD</span><a href="#">Coming Soon</a>
-                                    </h5>
-                                    <div class="latest-movie-bottom">
-                                        <ul>
-                                            <li class="release-date">Locked</li>
-                                            <li><span class="duration">Locked</span><span class="rating"></span>
-<a class="github-button" href="#" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6 grid-item grid-sizer">
-                            <div class="latest-movie-item mb-50">
-                                <div class="latest-movie-thumb">
-                                    <a href="#"><img src="assets/img/poster/comingsoon.jpg" alt=""></a>
-                                </div>
-                                <div class="latest-movie-content">
-                                    <div class="category"><a href="#">Locked</a></div>
-                                    <h5 class="title">
-                                        <span class="quality">FHD</span><a href="#">Coming Soon</a>
-                                    </h5>
-                                    <div class="latest-movie-bottom">
-                                        <ul>
-                                            <li class="release-date">Locked</li>
-                                            <li><span class="duration">Locked</span><span class="rating"></span>
-<a class="github-button" href="#" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6 grid-item grid-sizer">
-                            <div class="latest-movie-item mb-50">
-                                <div class="latest-movie-thumb">
-                                    <a href="#"><img src="assets/img/poster/comingsoon.jpg" alt=""></a>
-                                </div>
-                                <div class="latest-movie-content">
-                                    <div class="category"><a href="#">Locked</a></div>
-                                    <h5 class="title">
-                                        <span class="quality">FHD</span><a href="#">Coming Soon</a>
-                                    </h5>
-                                    <div class="latest-movie-bottom">
-                                        <ul>
-                                            <li class="release-date">Locked</li>
-                                            <li><span class="duration">Locked</span><span class="rating"></span>
-<a class="github-button" href="#" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6 grid-item grid-sizer">
-                            <div class="latest-movie-item mb-50">
-                                <div class="latest-movie-thumb">
-                                    <a href="#"><img src="assets/img/poster/comingsoon.jpg" alt=""></a>
-                                </div>
-                                <div class="latest-movie-content">
-                                    <div class="category"><a href="#">Locked</a></div>
-                                    <h5 class="title">
-                                        <span class="quality">FHD</span><a href="#">Coming Soon</a>
-                                    </h5>
-                                    <div class="latest-movie-bottom">
-                                        <ul>
-                                            <li class="release-date">Locked</li>
-                                            <li><span class="duration">Locked</span><span class="rating"></span>
-<a class="github-button" href="#" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6 grid-item grid-sizer">
-                            <div class="latest-movie-item mb-50">
-                                <div class="latest-movie-thumb">
-                                    <a href="#"><img src="assets/img/poster/comingsoon.jpg" alt=""></a>
-                                </div>
-                                <div class="latest-movie-content">
-                                    <div class="category"><a href="#">Locked</a></div>
-                                    <h5 class="title">
-                                        <span class="quality">FHD</span><a href="#">Coming Soon</a>
-                                    </h5>
-                                    <div class="latest-movie-bottom">
-                                        <ul>
-                                            <li class="release-date">Locked</li>
-                                            <li><span class="duration">Locked</span><span class="rating"></span>
-<a class="github-button" href="#" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                    <div class="pagination-wrap">
-                        <nav aria-label="Page navigation example">
-                            <ul class="pagination">
-                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">...</a></li>
-                                <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                            </ul>
-                        </nav>
                     </div>
                 </div>
             </section>
-            <!-- latest-movie-area-end -->
+            <!-- movie-search-area-end -->
 
         </main>
         <!-- main-area-end -->
@@ -442,7 +291,7 @@
                                     <div class="footer-menu">
                                         <ul class="navigation">
                                             <li><a href="index.html">HOME</a></li>
-                                            <li class="active"><a href="comic.html">COMIC</a></li>
+                                            <li><a href="comic.html">COMIC</a></li>
                                             <li><a href="tv-show.html">TV SHOW</a></li>
                                             <li><a href="map.html">MAP</a></li>
                                             <li><a href="movie.html">MOVIE</a></li>
@@ -555,7 +404,9 @@
         <script src="assets/js/ajax-form.js"></script>
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/search.js"></script>
         <script async defer src="https://buttons.github.io/buttons.js"></script>
     </body>
 
 </html>
+
