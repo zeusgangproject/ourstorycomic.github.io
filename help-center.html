@@ -248,7 +248,7 @@
 <li  class="search">
 <div class="footer-menu-wrap">
          <h1>Does RW Studio support other languages ?</h1>
-         <p>&nbsp;&nbsp;&nbsp; For now we only use English for our comics, for TV shows and movies we use multiple languages like German, Spanish, Vietnamese, Italian and more If you want the language of your country in our projects, you can contact us at discord to become translators, maybe in the future we will use other languages for our comics.
+         <p>&nbsp;&nbsp;&nbsp; For now we only use English for our comics and maps, for TV shows and movies we use multiple languages like German, Spanish, Vietnamese, Italian and more If you want the language of your country in our projects, you can contact us at discord to become translators, maybe in the future we will use other languages for our comics.
 </p></div></li>
 <li  class="search">
 <div class="footer-menu-wrap">
@@ -269,6 +269,9 @@
 <li  class="search">
 <div class="footer-menu-wrap">
          <h1>How to read our comic ?</h1>
+         <p>&nbsp;&nbsp;&nbsp; this so dumb</p></div></li>
+<div class="footer-menu-wrap">
+         <h1>How to play our map ?</h1>
          <p>&nbsp;&nbsp;&nbsp; this so dumb</p></div></li>
     </ol>
                         </div>
@@ -303,11 +306,16 @@
                                         </ul>
                                     </div>
                                     <div class="footer-search">
-                                        <form action="#">
-                                            <input type="text" placeholder="Search...">
-                                            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                                        </form>
-                                    </div>
+    <div class="box-search" id="search2">
+        <form class="row" @submit.prevent>
+            <div class="col-12 col-7-m col-8-l col-10-xl">
+                <input class="field" id="username" type="text" placeholder="Find favorite project" v-model="username">
+            </div>
+            <div class="col-12 col-5-m col-4-l col-2-xl">
+                <button @click="coder" class="button"><i class="fas fa-search"></i></button>
+            </div>
+        </form>
+    </div>
                                 </div>
                             </div>
                         </div>
@@ -412,6 +420,7 @@
         <script src="assets/js/search.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
         <script src="assets/js/searchproject.js"></script>
+        <script src="assets/js/searchproject2.js"></script>
         <script async defer src="https://buttons.github.io/buttons.js"></script>
     </body>
 
