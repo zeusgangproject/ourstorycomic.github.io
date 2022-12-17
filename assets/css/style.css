@@ -5105,7 +5105,7 @@ label {
 	margin-bottom: 0;
 }
 .footer-bottom .copyright-text p span {
-	color: #8f0009;
+	color: #9f9f9f;
 }
 /* 25. Preloader */
 #preloader{
@@ -5232,6 +5232,9 @@ label {
 }
 .plyr--video .plyr__control svg {
   filter: none;
+}
+#copyright {
+    float: left;
 }
 #disqus_thread {
      position: relative;
