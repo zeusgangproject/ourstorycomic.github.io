@@ -1697,6 +1697,12 @@ label {
 }
 
 /* Banner 02 */
+.tvshow-bg {
+	background-image: url(../img/bg/tvshow-bg.png);
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0 70px;
+}
 .banner-bg {
 	background-image: url(../img/slider/home_two_banner_bg.jpg);
 	background-position: center;
